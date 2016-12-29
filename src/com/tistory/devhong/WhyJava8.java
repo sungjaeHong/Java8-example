@@ -1,3 +1,5 @@
+package com.tistory.devhong;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -42,7 +44,6 @@ public class WhyJava8 {
         String result = numbers.stream()
                         .map(String::valueOf)               //Map<T, S>의 map이 아니라 ○ -> △ 로 mapping한다라는 의미. 여기서는 String클래스의 valueOf메소드를 사용한다는 의미.
                         .collect(joining(" : "));
-
         System.out.println(result);
 
     }
