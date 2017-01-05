@@ -1,5 +1,6 @@
 package com.tistory.devhong;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -46,5 +47,7 @@ public class WhyJava8 {
                         .collect(joining(" : "));
         System.out.println(result);
 
+
     }
+
 }
