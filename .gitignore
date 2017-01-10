@@ -33,3 +33,9 @@ proguard/
 .gradle/
 build/
 bin/
+
+
+CREATE TABLE public.creative (
+  cre_clicktype VARCHAR
+) 
+WITH (oids = false);
