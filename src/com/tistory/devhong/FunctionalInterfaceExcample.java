@@ -33,6 +33,7 @@ public class FunctionalInterfaceExcample {
 
 
         //mapper, String -> Integer
+        //T타입을 받아 R타입을 return하는게 apply
         Function<String, Integer> toInt = value->Integer.parseInt(value);   //Lambda Expression
         int result = toInt.apply("123");
         System.out.println(result);//output : 123
